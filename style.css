@@ -68,7 +68,7 @@ section#box3{
 	background-color: #eb7600;
 }
 
-.inicio { /*Configuración genera*/
+.inicio { /*Configuración del botón*/
 	font-family: French Script MT;
     position: relative;
     top: 0px;
@@ -78,7 +78,7 @@ section#box3{
     font-size: 18px;
     line-height: 110px;
     text-align: center;
-    border-bottom: 10px solid #4a4f51; ;
+    border-bottom: 10px solid #eb7600; ;
 
     cursor: pointer;
     transition: all .5s ease;
@@ -93,6 +93,7 @@ section#box3{
 }
 /*Aquí acaba*/
 
+/*botón del catálogo*/
 section#box4{
 	width: 210px;
 	height: 140px;
@@ -100,6 +101,7 @@ section#box4{
 	background-color: #eb7600;
 }
 
+/*Configuración del botón del catálogo*/
 .catalogo {
 	font-family: French Script MT;
     position: relative;
@@ -110,7 +112,7 @@ section#box4{
     font-size: 18px;
     line-height: 110px;
     text-align: center;
-    border-bottom: 10px solid #4a4f51; ;
+    border-bottom: 10px solid #eb7600; ;
 
     cursor: pointer;
     transition: all .5s ease;
@@ -123,7 +125,9 @@ section#box4{
 	text-decoration: none;
 	font-size: 40px;
 }
+/*Aquí termina*/
 
+/*botón de login*/
 section#box5{
 	width: 210px;
 	height: 140px;
@@ -131,6 +135,7 @@ section#box5{
 	background-color: #eb7600;
 }
 
+/*configuración del botón de login*/
 .login {
     font-family: French Script MT;
     position: relative;
@@ -141,7 +146,7 @@ section#box5{
     font-size: 18px;
     line-height: 110px;
     text-align: center;
-    border-bottom: 10px solid #4a4f51; ;
+    border-bottom: 10px solid #eb7600; ;
 
     cursor: pointer;
     transition: all .5s ease;
@@ -154,12 +159,16 @@ section#box5{
     text-decoration: none;
     font-size: 40px;
 }
+/*Aquí termina*/
 
+/*Sección para hacer un espacio entre las secciones de la página*/
 section#espaciador{
 	width: 1230px;
 	height: 50px;
 }
+/*Aquí termina*/
 
+/*Sección del contenido principal de la página*/
 article{
 	width: 1230px; 
 	height: 850px; 
@@ -169,9 +178,12 @@ article{
 h1#titulo_novedades{
 	text-align: center;
 }
+/*Aquí termina*/
 
+/*Pie de página*/
 footer{
 	width: 1230px; 
 	height: 150px; 
 	background-color: white;
 }
+/*Aquí termina*/
