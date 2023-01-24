@@ -11,21 +11,21 @@ body{
 	width: 1350px; 
 	height: 1150px; 
 	margin: auto; 
-	background-color: gray;
+	background-color: pink;
 	float: left;
 }
 
 header{
 	width: 1350px; 
-	height: 200px;
-	background-color: hotpink; 
+	height: 158px;
+	background-color: #ff0000; 
 	float: left;
 }
 
 main{
 	width: 1350px; 
-	height: 850px; 
-	background-color: white;
+	height: 1050px; 
+	background-color: pink;
 	float: left;
 }
 /*Aquí termina*/
@@ -177,9 +177,9 @@ section#espaciador{
 /*Sección del contenido principal de la página*/
 article{
 	width: 1350px; 
-	height: 850px; 
+	height: 1350px; 
 	float: left; 
-	background-color: crimson;
+	background-color: transparent;
 }
 h1#titulo_novedades{
 	text-align: center;
@@ -187,10 +187,13 @@ h1#titulo_novedades{
 /*Aquí termina*/
 
 /*Pie de página*/
+
 footer{
 	width: 1350px; 
-	height: 150px; 
-	background-color: white;
+	height: 200px; 
+	float: left; 
+	background-color: purple;
+	
 }
 
 /*Aquí termina*/
@@ -204,13 +207,13 @@ section#CajaDeSubtitulo{
 	width: 1350px; 
 	height: 50px; 
 	float: left; 
-	background-color: gray;
+	background-color: #eb7600;
 }
 section#CajaDeBordeLargo{
 	width: 1350px; 
 	height: 3px; 
 	float: left; 
-	background-color: pink;
+	background-color: #ff0000;
 }
 
 
@@ -218,12 +221,17 @@ section#CajaDeInfo{
 	width: 448px; 
 	height: 448px; 
 	float: left; 
-	background-color: red;
+	background-color: transparent;
 }
 section#CajaDeBorde{
 	width: 3px; 
 	height: 448px; 
 	float: left; 
-	background-color: pink;
+	background-color: #ff0000;
 }
 
+q{
+	font-family: French Script MT;
+	text-align: center;
+	font-size: 50px;
+}
