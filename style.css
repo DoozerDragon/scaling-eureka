@@ -31,7 +31,8 @@ section#banner{
 	width: 1230px; 
 	height: 300px; 
 	float: left; 
-	background-color: #eb7600;
+	background-color:blue ;
+	/*background-color: #eb7600;*/
 }
 
 /*Logo*/
@@ -65,7 +66,8 @@ section#box3{
 	width: 210px;
 	height: 140px;
 	float: left;
-	background-color: #eb7600;
+	background-color:blue };
+	/*background-color: #eb7600;*/
 }
 
 .inicio { /*Configuración del botón*/
