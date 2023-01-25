@@ -8,31 +8,35 @@ html{
 }
 
 body{
-	width: 1230px; 
-	height: 1550px; 
+	width: 1350px; 
+	height: 1150px; 
 	margin: auto; 
-	background-color: white;
+	background-color: pink;
+	float: left;
 }
 
 header{
-	width: 1230px; 
-	height: 300px; 
+	width: 1350px; 
+	height: 158px;
+	background-color: #ff0000; 
+	float: left;
 }
 
 main{
-	width: 1230px; 
-	height: 850px; 
-	background-color: white;
+	width: 1350px; 
+	height: 1050px; 
+	background-color: pink;
+	float: left;
 }
 /*Aquí termina*/
 
 /*secciones internas*/
 section#banner{
-	width: 1230px; 
-	height: 300px; 
+	width: 1350px; 
+	height: 155px; 
 	float: left; 
-	background-color:blue ;
-	/*background-color: #eb7600;*/
+	background-color: #eb7600;
+	float: left;
 }
 
 /*Logo*/
@@ -40,7 +44,7 @@ section#logo{
 	width: 180px;
 	height: 150px;
 	float: left;
-	background-color: ;
+	background-color: transparent;
 	text-align: center;
 }
 
@@ -55,7 +59,7 @@ h1#Nombre{
 /*Esta es la caja que contiene un espacio para la barra de búsqueda*/
 section#box1{
 	width: 420px;
-	height: 150px;
+	height: 98px;
 	float: left;
 	background-color: #eb7600;
 }
@@ -64,10 +68,9 @@ section#box1{
 /*Esta es la caja que contiene el botón para el inicio*/
 section#box3{
 	width: 210px;
-	height: 140px;
+	height: 88px;
 	float: left;
-	background-color:blue };
-	/*background-color: #eb7600;*/
+	background-color: #eb7600;
 }
 
 .inicio { /*Configuración del botón*/
@@ -80,7 +83,7 @@ section#box3{
     font-size: 18px;
     line-height: 110px;
     text-align: center;
-    border-bottom: 10px solid #eb7600; ;
+    border-bottom: 10px solid #eb7600; 
 
     cursor: pointer;
     transition: all .5s ease;
@@ -98,7 +101,7 @@ section#box3{
 /*botón del catálogo*/
 section#box4{
 	width: 210px;
-	height: 140px;
+	height: 88px;
 	float: left;
 	background-color: #eb7600;
 }
@@ -114,7 +117,7 @@ section#box4{
     font-size: 18px;
     line-height: 110px;
     text-align: center;
-    border-bottom: 10px solid #eb7600; ;
+    border-bottom: 10px solid #eb7600; 
 
     cursor: pointer;
     transition: all .5s ease;
@@ -132,7 +135,7 @@ section#box4{
 /*botón de login*/
 section#box5{
 	width: 210px;
-	height: 140px;
+	height: 88px;
 	float: left;
 	background-color: #eb7600;
 }
@@ -148,7 +151,7 @@ section#box5{
     font-size: 18px;
     line-height: 110px;
     text-align: center;
-    border-bottom: 10px solid #eb7600; ;
+    border-bottom: 10px solid #eb7600; 
 
     cursor: pointer;
     transition: all .5s ease;
@@ -165,17 +168,18 @@ section#box5{
 
 /*Sección para hacer un espacio entre las secciones de la página*/
 section#espaciador{
-	width: 1230px;
+	width: 1350px;
 	height: 50px;
+
 }
 /*Aquí termina*/
 
 /*Sección del contenido principal de la página*/
 article{
-	width: 1230px; 
-	height: 850px; 
+	width: 1350px; 
+	height: 1350px; 
 	float: left; 
-	background-color: white;
+	background-color: transparent;
 }
 h1#titulo_novedades{
 	text-align: center;
@@ -183,11 +187,51 @@ h1#titulo_novedades{
 /*Aquí termina*/
 
 /*Pie de página*/
+
 footer{
-	width: 1230px; 
-	height: 150px; 
-	background-color: white;
+	width: 1350px; 
+	height: 200px; 
+	float: left; 
+	background-color: purple;
+	
 }
+
 /*Aquí termina*/
 
 /*Puntito*/
+
+/*Codigo que sirve para almacenar la información que usaras, el "by: Chris" es para que sepas lo que coloque uwu*/
+/*Titulo by: Chris*/
+
+section#CajaDeSubtitulo{
+	width: 1350px; 
+	height: 50px; 
+	float: left; 
+	background-color: #eb7600;
+}
+section#CajaDeBordeLargo{
+	width: 1350px; 
+	height: 3px; 
+	float: left; 
+	background-color: #ff0000;
+}
+
+
+section#CajaDeInfo{
+	width: 448px; 
+	height: 448px; 
+	float: left; 
+	background-color: transparent;
+}
+section#CajaDeBorde{
+	width: 3px; 
+	height: 448px; 
+	float: left; 
+	background-color: #ff0000;
+}
+
+q{
+	font-family: French Script MT;
+	text-align: center;
+	font-size: 50px;
+}
